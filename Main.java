@@ -1,17 +1,11 @@
-public class Main {
-
+ public class Main {
+ 
     public static void main(String[] args){
-        try{
-            int balance = 5000;
-            int withdrawal = 6000;
-
-            if(withdrawal>balance){
-                throw new Exception("insufficient fund");
-            }
-            System.out.println("succes");
-        }catch(Exception e){
-            System.out.println(e.getMessage());
+        int num=111;
+        int result;
+        for(int i=0;i<=20;i++){
+            result=num*i;
+            System.out.println(num+"*"+i+"="+result);
         }
-   
-}
-}
+    }
+ } 
